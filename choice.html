@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        body, main {
+            padding: 0;
+            margin: 0;
+           height: 100% 
+           
+        }
+        .box_container{
+           height: 100vh;
+       }
+        .box_container img {
+            float: left;
+             width: 50%;
+             height: 50%;
+           /*  object-fit: contain; */
+        }
+        p{
+            text-align: center;
+        }
+        </style>
+       <script>
+        window.onload = function() {
+            setTimeout(function () {
+                window.location.href = "black.html";
+            }, 4000);
+        };
+//           var timeout = setTimeout(function(){yourFunction()},10000);
+//             let hour;
+//         if (hour < timeout) {
+//            window.location.href = "http://127.0.0.1:5501/Uni/Part3/movingimg.html";
+//            } else {
+//            window.location.href = "http://127.0.0.1:5501/Uni/Part3/black.html"
+// }
+    
+        </script>
+</head>
+
+<body>
+    <main>
+        <p>Choose a product. Now!</p>
+        <div class="box_container">
+            
+          <a href="./movingimg.html"><img class="img imgtl" src="./imgtop.jpg"/></a>  
+          <a href="./movingimg.html"><img class="img imgtr" src="./imgright.jpg" alt=""></a>
+           <a href="./movingimg.html"><img class="img imgbl" src="./imgdown.jpg" alt=""></a>
+           <a href="./movingimg.html"><img class="img imgbr" src="./imgdownright.jpg" alt=""></a>
+          
+
+        </div>
+       
+            </main>
+</body>
+</html>
